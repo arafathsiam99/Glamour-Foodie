@@ -1,0 +1,165 @@
+body{
+    font-family: 'Tajawal', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 100px;
+    
+}
+
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 3%;
+    margin-top: 200px;
+}
+.half-width h1{
+    width: 80%;
+    text-align: justify;
+    margin-left: 100px;
+    margin-top: 250px;
+}
+.half-width p{
+    margin-left: 100px;
+
+}
+
+.half-width img{
+    width: 80%;
+    height: 90%;
+}
+
+.link-button{
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(red,rgb(243, 250, 102));
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px ;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    margin-left: 100px;
+    transition: 0.5s;
+}
+
+.link-button:hover{
+    font-size: 20px;
+    color:rgb(23, 33, 146);
+    
+    
+}
+
+.topper-margin{
+    margin-top: 100px;
+}
+.second-section{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat; 
+    padding: 8%;
+    background-size: 112% 110%;
+    background-position: center;
+    height: 400px;
+}
+
+.second-width{
+    width: 50% ;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+
+.second-width img{
+    width: 60%;
+    height: 138%;
+}
+
+.gorgeous-color{
+    color: red;
+}
+.reciepe-para{
+    text-align: center;
+    margin-bottom: 50px;
+    color: gray;
+}
+.reciepe-menu {
+    text-align: center;
+}
+.reciepe-menu1{
+    height: 500px;
+    width: 400px;
+    border-radius: 30px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 10px 10px 50px gray;
+    margin: 0px 50px;
+}
+.reciepe-menu1 img{
+    height: 300px;
+    width: 330px;
+    border-radius: 30px;
+   
+    margin-top: 30px;
+    
+    
+}
+.reciepe-menu1 h1{
+    font-size: 30px;
+    margin: 0;
+    text-align: justify;
+    margin-left: 33px;
+    
+    
+}
+.reciepe-menu1 p{
+    max-width: 80%;
+    margin-left: 33px;
+    text-align: justify;
+}
+
+.reciepe-area{
+   box-shadow: 10px 10px 50px gray; 
+   border-radius: 25px;
+   width: 90%;
+   height: 300px; 
+   text-align: center;
+   /* background-image: linear-gradient(orange,tomato); */
+   margin: auto;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+.under-neath{
+    padding: 0;
+    margin-left: 20px;
+    padding-bottom: 0;  
+    width: 200px;
+    height: 110px;
+    overflow: hidden;
+    margin-right: 20px;
+    /* padding: 160px; */
+    
+}
+.under-neath p,h1{
+    margin: 0;
+    text-align: center;
+}
+.under-era{
+    margin: auto;
+    display: flex;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 3%;
+}
+
+.footer-section{
+    color:white;
+}
