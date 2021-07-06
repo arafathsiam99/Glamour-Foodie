@@ -8,6 +8,46 @@ h1{
     font-weight: 100px;
     
 }
+.menu-section{
+   height: 120px;
+   overflow: hidden;
+   background-color: rgb(243, 241, 233);
+  
+}
+.logo{
+    width: 30%;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+}
+.logo img{
+    height: 100px;
+    width: 350px;
+}
+.menu-item{
+    width: 69%;
+    height: 120px;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+
+}
+.menu-item a{
+    text-decoration: none;
+    color: #DC0B1E;
+    padding: 5px;
+    font-size: 25px;
+    margin:0px 30px ;
+
+}
+.menu-item-details{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    margin-top: 35px;
+    float: right;
+
+}
 
 
 .flexible-container{
@@ -52,7 +92,6 @@ h1{
 .link-button:hover{
     font-size: 20px;
     color:rgb(23, 33, 146);
-    
     
 }
 
@@ -124,19 +163,18 @@ h1{
    height: 300px; 
    text-align: center;
    margin: auto;
-   margin-top: 50px;
-   margin-bottom: 50px;
+   margin-top: 190px;
+   margin-bottom: 150px;
 }
 
 .under-neath{
     padding: 0;
-    margin-left: 20px;
+    margin: 0px 145px;
     padding-bottom: 0;  
     width: 200px;
     height: 110px;
     overflow: hidden;
-    margin-right: 20px;
-    
+      
 }
 .under-neath p,h1{
     margin: 0;
