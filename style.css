@@ -39,7 +39,7 @@ h1{
 .link-button{
     display: inline-block;
     text-decoration: none;
-    background-image: linear-gradient(red,rgb(243, 250, 102));
+    background-image: linear-gradient(rgb(230, 4, 4),rgb(255, 215, 85));
     color: white;
     font-weight: 700;
     padding: 10px 40px ;
@@ -80,7 +80,7 @@ h1{
 }
 
 .gorgeous-color{
-    color: red;
+    color: rgb(233, 28, 1);
 }
 .reciepe-para{
     text-align: center;
@@ -103,18 +103,13 @@ h1{
     height: 300px;
     width: 330px;
     border-radius: 30px;
-   
     margin-top: 30px;
-    
-    
 }
 .reciepe-menu1 h1{
     font-size: 30px;
     margin: 0;
     text-align: justify;
-    margin-left: 33px;
-    
-    
+    margin-left: 33px; 
 }
 .reciepe-menu1 p{
     max-width: 80%;
@@ -128,7 +123,6 @@ h1{
    width: 90%;
    height: 300px; 
    text-align: center;
-   /* background-image: linear-gradient(orange,tomato); */
    margin: auto;
    margin-top: 50px;
    margin-bottom: 50px;
@@ -142,7 +136,6 @@ h1{
     height: 110px;
     overflow: hidden;
     margin-right: 20px;
-    /* padding: 160px; */
     
 }
 .under-neath p,h1{
